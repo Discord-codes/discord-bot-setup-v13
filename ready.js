@@ -10,6 +10,7 @@ console.log(`Your app is listening a http://localhost:${port}`)
 
 const { Client, Collection } = require('discord.js'); //define
 const { TOKEN, PREFIX } = require('./config.json'); //token and prefix
+const chalk = require("chalk")
 
 
 client.once('ready', () => {
