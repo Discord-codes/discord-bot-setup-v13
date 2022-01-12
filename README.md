@@ -1,1 +1,4 @@
-# discord-bot-setup-v13
+# ping-pong-v13
+
+Steps: 
+fork
