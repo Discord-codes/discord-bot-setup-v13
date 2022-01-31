@@ -7,3 +7,5 @@ client.on('messageCreate', async message => { //create message
 }
 })
 client.login(config.token);
+
+const Discord = require("discord.js")
