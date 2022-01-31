@@ -1,4 +1,4 @@
-const { Client, Collection } = require('discord.js'); //define
+const { Client, Collection , Discord } = require('discord.js'); //define
 const { TOKEN, PREFIX } = require('./config.json'); //token and prefix
 const client = new Client({ intents: 32767 }); //intents
 client.on('messageCreate', async message => { //create message
@@ -8,4 +8,3 @@ client.on('messageCreate', async message => { //create message
 })
 client.login(config.token);
 
-const Discord = require("discord.js")
